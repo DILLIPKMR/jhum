@@ -2,7 +2,7 @@
 - name: install /uninstall s/w
   hosts: all
   tasks: 
-   - name: software
+   - name: software install/unstall
      apt:
       name: tree
       state: present
