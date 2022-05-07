@@ -1,5 +1,5 @@
 ---
-- name: install/unstall application
+- name: install/unstall ss/application
   hosts: all
   vars:
    - a: tomcat9
