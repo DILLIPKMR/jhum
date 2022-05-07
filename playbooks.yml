@@ -1,0 +1,11 @@
+---
+- name: install /uninstall s/w
+  hosts: all
+  tasks: 
+   - name: software
+     apt:
+      name: tree
+      state: present
+      update_cache: yes
+
+...
